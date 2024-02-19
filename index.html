@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MediaPipe HandGestureRecognizer Task for web</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+  <div id="liveView" class="videoView">
+    <div style="position: relative;">
+      <video id="webcam" autoplay playsinline></video>
+      <canvas class="output_canvas" id="output_canvas" width="1280" height="720" style="position: absolute; left: 0px; top: 0px;"></canvas>
+      <p id='gesture_output' class="output">
+    </div>
+  </div>
+</section>
+<script type="module" src="./script.js"></script>
+</body>
+</html>
